@@ -1,0 +1,29 @@
+{
+  "name": "puppeteer-got",
+  "description": "use GOT with puppeteer",
+  "devDependencies": {
+    "typescript": "3.7.5",
+    "ava": "3.0.0",
+    "@types/node": "13.5.0",
+    "@types/puppeteer": "2.0.0",
+    "puppeteer": "2.0.0",
+    "got": "10.2.2"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "ava": "ava",
+    "clean": "rm -rf dist",
+    "pretest": "npm run clean && npm run tsc",
+    "test": "npm run ava",
+    "posttest": "npm run clean"
+  },
+  "ava": {
+    "files": [
+      "dist/test.js"
+    ],
+    "concurrency": 1,
+    "failWithoutAssertions": false,
+    "verbose": true
+  },
+  "author": "Oleksii Ihnatiuk"
+}

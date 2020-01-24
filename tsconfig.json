@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "sourceMap": true,
+    "outDir": "dist",
+    "types": ["puppeteer", "node", "ava"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true
+  }
+}
