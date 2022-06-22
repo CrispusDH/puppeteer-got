@@ -7,7 +7,7 @@
     "@types/node": "13.5.0",
     "@types/puppeteer": "2.0.0",
     "puppeteer": "2.1.0",
-    "got": "10.2.2"
+    "got": "11.8.5"
   },
   "scripts": {
     "tsc": "tsc",
